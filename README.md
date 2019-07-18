@@ -1,10 +1,43 @@
 # Game_of_life
-Simulation of Conways Game of Life using c++ and open gl 
+Simulation of Conway's Game of Life using c++ and OpenGL
 
-compile using g++ Game.cpp -lGL -lGLU -lglut
-exit using escape
+## Installation
 
-how to play :: first select appropriate blocks in which you want to put life then click on game of life icon to continue to 
-next satge and at next stage ie survival period press enter to continue to next stage
+in case you dont have git
 
-play and enjoy " THE LIFE "
+ `sudo apt-get install git`
+ 
+Clone the repo
+ 
+ `git clone https://github.com/Circles24/Game_of_life.git`
+ 
+Open the directory
+
+`cd Game_of_life`
+
+## Usage
+
+### Compilatoin
+
+In case you dont have glut installed previously
+
+`sudo apt-get install freeglut3-dev`
+  
+ then
+
+`g++ Game.cpp -lGL -lGLU -lglut`
+
+### Run
+
+`./a.out`
+
+### How to play
+
+- In the first stage select to play 
+- Now select blocks to put life into
+- Click on "Game of Life" icon
+- Now press Enter to move to next stage
+- esc  to  Exit
+
+
+### play and enjoy " THE LIFE "
