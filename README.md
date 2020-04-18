@@ -3,7 +3,7 @@ Simulation of Conway's Game of Life using c++ and OpenGL
 
 ## Installation
 
-in case you dont have git
+in case you don't have git
 
  `sudo apt-get install git`
  
@@ -17,7 +17,7 @@ Open the directory
 
 ## Usage
 
-### Compilatoin
+### Compilation
 
 In case you dont have glut installed previously
 
